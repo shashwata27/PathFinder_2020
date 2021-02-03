@@ -8,7 +8,7 @@ class getPath(tk.Tk):
         self.title("PathFinder")
         self.geometry('400x50')
         self.resizable(width=False, height=False)
-        img = PhotoImage(file=r"C:\Users\santu saha\PycharmProjects\PathFinderActual\pathfin.png")
+        img = PhotoImage(file=r"pathfin.png")
         self.iconphoto(False, img)
 
         self.label1 = tk.Label(self, text="Enter the Dimension here: ").grid(row=0, column=0)

@@ -14,7 +14,7 @@ class App():
     def Function(self):
         self.master.title("PathFinder")
         self.master.minsize(500, 500)
-        img = PhotoImage(file=r"C:\Users\santu saha\PycharmProjects\PathFinderActual\pathfin.png")
+        img = PhotoImage(file=r"pathfin.png")
         self.master.iconphoto(False, img)
 
         Grid.rowconfigure(self.master, 0, weight=12)
