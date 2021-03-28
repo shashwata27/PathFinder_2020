@@ -1,6 +1,8 @@
+#clientside
 from tkinter import *
 from algo import *
 from ProMt import *
+import encrypt,decrypt
 
 class App():
     def __init__(self, master,dimension,indexes):
@@ -83,7 +85,11 @@ class App():
 
     def Click3(self):
         if self.cofrm == True:
-            path = astar(app.maze, app.indxes[0], app.indxes[1])
+            lst=encrypt.encry(list(app.indxes[0],app.indxes[1]))
+            #app.indxes[0] & app.indexes[1] is encryption to send to serverside algo
+
+            path = astar(app.maze, lst[0], lst[1])#path is encrypted data
+            #decryption is done to show the path
             print(path)
             self.showPath(path)
         master.update()
