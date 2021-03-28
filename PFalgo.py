@@ -85,11 +85,12 @@ class App():
 
     def Click3(self):
         if self.cofrm == True:
-            lst=encrypt.encry(list(app.indxes[0],app.indxes[1]))
+            Sendcipher=encrypt.encry([app.indxes[0],app.indxes[1]])
             #app.indxes[0] & app.indexes[1] is encryption to send to serverside algo
 
-            path = astar(app.maze, lst[0], lst[1])#path is encrypted data
-            #decryption is done to show the path
+            path = astar(app.maze, None,None,Sendcipher)#path is encrypted data
+            
+            path=decrypt.decrypt(path)#decryption is done to show the path
             print(path)
             self.showPath(path)
         master.update()

@@ -14,8 +14,8 @@ def encry(l):
     key=key-(key%5)
 
     for x in range(len(l)):
-        first=chr(l[x][0]+key+x)
-        second=chr(l[x][1]+key+x)
+        first=chr(l[x][0]+key+x+32)#after char b/w 32 and 254 are readable
+        second=chr(l[x][1]+key+x+32)
 
         junkdata=""
         for _ in range(junk):
@@ -29,4 +29,5 @@ def encry(l):
     print(encry)
     return encry
 
-encry([(1,2),(3,4)])
+if __name__ == "__main__":    
+    encry([(1,2),(3,4)])
