@@ -12,6 +12,7 @@ def encry(l):
     keyNjunk=ctime()[11:16]
     junk,key=map(int,keyNjunk.split(":"))
     key=key-(key%5)
+
     for x in range(len(l)):
         first=chr(l[x][0]+key+x)
         second=chr(l[x][1]+key+x)
@@ -24,7 +25,8 @@ def encry(l):
         encry+=term+junkdata
         # print(term)
         # print(junkdata)
-        print(encry)
-        return encry
+        
+    print(encry)
+    return encry
 
 encry([(1,2),(3,4)])
