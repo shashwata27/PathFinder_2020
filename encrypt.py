@@ -5,7 +5,7 @@ import string
 #rotate key=mins
 #junk len=hours
 #junk only after finish of tuple
-#,=obify
+#"," =obify
 def encry(l):
     print(l)
     encry=""
