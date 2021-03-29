@@ -4,7 +4,7 @@ A python game that uses Astar alogorithm to find the shortest path between sourc
 
 <img title="Pathfinder Logo" src="Images/pathfin.png" height=210 width=210>
 
-### About the Algorithm:
+### Pathfinding Algorithm:
 Astar algorithm is considered to be a _smart algorithm_ as it predicts the shortest path in each step, to find the acutal Shortest path.
 * Works by using the sum _F(n)_.
 * **_F(n)=G(n)+H(n)_**
@@ -16,8 +16,9 @@ Astar algorithm is considered to be a _smart algorithm_ as it predicts the short
 - User(client side) location and destination is encrypted before sending it to serverside path finding algorithm.
 - Which decrypts it and finds the shortest path and sends back the path, which is again encrypted.
 - When the client side GUI receives the encrypted path it decrypts it and shows it in the GUI.
+
   <p align="left">
-  <img src="Images/4.PNG" width="512" title="Encryption Decryption">
+  <img src="Images/4.PNG" width="400" title="Encryption Decryption">
   </p>
  
 
