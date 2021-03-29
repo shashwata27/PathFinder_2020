@@ -1,11 +1,14 @@
 # **PathFinder_2020** : _Astar Algo_
 
-A python game that uses Astar alogorithm to find the shortest path between source and destination, avoiding all the obstracles.
+A python game that uses Astar alogorithm to find the shortest path between source and destination,<br>
+ avoiding all the obstracles.
 
 <img title="Pathfinder Logo" src="Images/pathfin.png" height=210 width=210>
 
+
+
 ***1StandAlone.exe** Folder can be seperatedly downloaded to play/test the game.*
-- *No need to install python & encrypted data will be shown in console.*
+*No need to install python & encrypted data will be shown in console.*
 
 ### Pathfinding Algorithm:
 Astar algorithm is considered to be a _smart algorithm_ as it predicts the shortest path in each step, to find the acutal Shortest path.
