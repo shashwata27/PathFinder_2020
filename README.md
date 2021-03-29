@@ -7,7 +7,7 @@ A python game that uses Astar alogorithm to find the shortest path between sourc
 
 
 
-***1StandAlone.exe** Folder can be seperatedly downloaded to play/test the game.*
+***1StandAlone.exe** Folder can be seperatedly downloaded to play/test the game.*<br>
 *No need to install python & encrypted data will be shown in console.*
 
 ### Pathfinding Algorithm:
