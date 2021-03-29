@@ -17,7 +17,7 @@ Astar algorithm is considered to be a _smart algorithm_ as it predicts the short
 - Which decrypts it and finds the shortest path and sends back the path, which is again encrypted.
 - When the client side GUI receives the encrypted path it decrypts it and shows it in the GUI.
   <p align="left">
-  <img src="Images/4.PNG" width="1024" title="Encryption Decryption">
+  <img src="Images/4.PNG" width="512" title="Encryption Decryption">
   </p>
  
 
