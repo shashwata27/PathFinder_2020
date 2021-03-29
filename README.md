@@ -10,6 +10,15 @@ Astar algorithm is considered to be a _smart algorithm_ as it predicts the short
 * **_F(n)=G(n)+H(n)_**
   * Cost from the start node to the current node _G(n)_
   * Estimated cost from current node to goal _H(n)_.
+
+### Encryption and Decryption Algorithm
+ **The key for Encryption and Decryption are synced and changes every 5 minutes.**
+- User(client side) location and destination is encrypted before sending it to serverside path finding algorithm.
+- Which decrypts it and finds the shortest path and sends back the path, which is again encrypted.
+- When the client side GUI receives the encrypted path it decrypts it and shows it in the GUI.
+  <p align="left">
+  <img src="Images/4.PNG" width="1024" title="Encryption Decryption">
+  </p>
  
 
 ### Working:
