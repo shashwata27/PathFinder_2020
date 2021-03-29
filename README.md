@@ -51,6 +51,7 @@ Astar algorithm is considered to be a _smart algorithm_ as it predicts the short
   
   
 ### Future:
-
-  * Interating more Algorithms in the Project.
+  * Deploy it in real world evironment, with real world data.
+  * Developing more ideas for encryption and decryption algorithms.
+  * Interating more pathfinding Algorithms for different cases.
   * Making the UI mordern.
